@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="utf-8" />
+    <title>NFT preview card component solution</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    <meta name="referrer" content="origin-when-cross-origin" />
+    <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+<div class="container">
+    <div class='item'>
+        <div class="image-container">  
+            <a href="#">  
+            <div class="overlay"> 
+                <img class="ice-cube" src="{{ entry.featureImage.one().getUrl('medium') }}" alt="">
+                <div class="eye">
+                 <img class="svg-view" src="/images/icon-view.svg" alt="">   
+                </div> 
+            </a>
+            </div>
+        </div>
+    <h2><a href="#">Equilibrium #3429</a></h2>
+
+    <p class="text">
+        Our Equilibrium collection promotes balance and calm. 
+    </p>
+    <div class="description">
+        <p class="price"> 
+            <img src="/images/icon-ethereum.svg">
+                0.041 ETH
+        </p>
+                    
+        <p class="delay">
+            <img src="/images/icon-clock.svg">
+        3 days left
+        </p>
+    </div>
+    <hr>
+    <p class="text">
+        <img src="{{ entry.artistImage.one().getUrl('small') }}" alt="">
+            Creation of 
+        <span><a href="#">Jules Wyvern</a></span>
+    </p> 
+    </div>
+</div>
+</body>
+</html>

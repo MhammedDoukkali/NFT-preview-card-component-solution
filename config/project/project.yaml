@@ -1,0 +1,35 @@
+dateModified: 1671481356
+email:
+  fromEmail: mr.doukkali@gmail.com
+  fromName: NFT
+  transportType: craft\mail\transportadapters\Sendmail
+meta:
+  __names__:
+    0dbafe52-c1ae-47f5-af0f-2e63791ab06a: 'artist Image' # artist Image
+    2f6b062f-49f0-408a-828e-9da475677134: Common # Common
+    6d845e3f-5a9e-4c95-a560-4d5208efea65: Home # Home
+    7fe9b6a1-995c-4d8a-8d50-6e3628acc5d2: NFT # NFT
+    8e6cf934-7525-47ef-9c3b-217b4a0ba420: Home # Home
+    917e0590-a93d-4da7-8b10-55df412cd4b8: NTFimage # NTFimage
+    08681f21-509e-483b-b221-ad5447154b63: Medium # Medium
+    ae661a47-9d65-45e3-abc2-2ddcfb3d2347: small # small
+    cffe5443-b288-4ce0-9cb5-c82cab57a5d6: NFT # NFT
+    d36bff2a-9121-4c9c-a093-3c0903c35574: Text # Text
+    d96b8a7f-0dc8-4789-a729-28d655ccb159: 'feature image' # feature image
+plugins:
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
+system:
+  edition: solo
+  live: true
+  name: NFT
+  schemaVersion: 3.7.33
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true

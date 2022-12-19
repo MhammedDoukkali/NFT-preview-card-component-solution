@@ -1,0 +1,139 @@
+
+html, body {
+
+	background-color: hsl(217, 54%, 11%);
+	margin: 0;
+    padding: 0;
+    border: 0;
+    height: 100%;
+
+}
+.container {
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+h2, p {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 300;
+
+}
+
+.description {
+	display: flex;
+	justify-content: space-between;
+}
+
+hr {
+	
+	border-top: 0px solid ;
+	width: 100%;
+}
+.text {
+ color: hsl(215, 51%, 70%);
+}
+
+.price { 
+	color: hsl(178, 100%, 50%);
+ }
+
+.delay {
+	color: hsl(215, 51%, 70%);
+}
+
+
+h2 a{
+	color: hsl(0, 0%, 100%);
+	text-decoration: none;
+}
+
+p{
+	text-align: left;
+}
+
+span a{
+	color: hsl(0, 0%, 100%);
+	text-decoration: none;
+}
+
+h2 a:hover {
+	color: hsl(178, 100%, 50%);
+}
+
+span a:hover {
+	color: hsl(178, 100%, 50%);
+}
+
+.item {
+	display: flex;		
+	flex-direction: column;
+	align-content: center;
+	justify-content: center;
+    background-color: hsl(216, 50%, 16%);
+    max-width: 100%;
+	margin: auto;
+	padding: 30px;
+	border-radius: 20px;
+	
+}
+
+.overlay {
+	border-radius: 22px;
+  background-color: hsl(178, 100%, 50%)
+
+}
+.image-container a{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	max-width: 100%;
+	margin: auto;	
+}
+
+.ice-cube {
+  opacity: 1;
+  width: 100%;
+  border-radius: 20px;
+}
+
+.eye {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 37%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.svg-view{
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+.image-container:hover .eye{
+	opacity: 1;
+}
+
+.image-container:hover a {
+	opacity: 0.5;
+	transition: .5s ease;
+}
+
+
+@media (min-width: 375px) {
+	.item {
+		max-width: 300px;
+		padding: 20px;
+	}
+}
+
+@media (min-width: 1440px) {
+	.item {
+		width: 90%;
+		margin: auto;
+	}
+}
