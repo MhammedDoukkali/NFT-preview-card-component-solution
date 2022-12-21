@@ -1,5 +1,6 @@
 {
   "require": {
+    "carlcs/craft-redactorcustomstyles": "3.0.4",
     "craftcms/cms": "3.7.59",
     "craftcms/redactor": "2.10.10",
     "vlucas/phpdotenv": "^5.4.0"

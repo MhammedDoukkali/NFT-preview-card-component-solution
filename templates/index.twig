@@ -6,7 +6,7 @@
     <title>NFT preview card component solution</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
     <meta name="referrer" content="origin-when-cross-origin" />
-    <link href="style.css" rel="stylesheet" />
+    <link href="{{ siteUrl }}style.css" rel="stylesheet" />
 </head>
 <body>
 <div class="container">
@@ -21,20 +21,26 @@
             </a>
             </div>
         </div>
-    <h2><a href="#">Equilibrium #3429</a></h2>
+    <h2><a href="#">
+    <!-- Equilibrium #3429 -->
+    {{ entry.textTitle }}
+</a></h2>
 
     <p class="text">
-        Our Equilibrium collection promotes balance and calm. 
+        <!-- Our Equilibrium collection promotes balance and calm.  -->
+        {{ entry.text }}
     </p>
     <div class="description">
         <p class="price"> 
             <img src="/images/icon-ethereum.svg">
-                0.041 ETH
+                <!-- 0.041 ETH -->
+                {{ entry.price }}
         </p>
                     
         <p class="delay">
             <img src="/images/icon-clock.svg">
-        3 days left
+        <!-- 3 days left -->
+        {{ entry.daysLeft }}
         </p>
     </div>
     <hr>

@@ -1,4 +1,4 @@
-dateModified: 1671481356
+dateModified: 1671635909
 email:
   fromEmail: mr.doukkali@gmail.com
   fromName: NFT
@@ -11,16 +11,24 @@ meta:
     7fe9b6a1-995c-4d8a-8d50-6e3628acc5d2: NFT # NFT
     8e6cf934-7525-47ef-9c3b-217b4a0ba420: Home # Home
     917e0590-a93d-4da7-8b10-55df412cd4b8: NTFimage # NTFimage
+    08679d1d-9717-4683-bb7a-659d489d05b3: price # price
     08681f21-509e-483b-b221-ad5447154b63: Medium # Medium
+    134575d6-3938-42f4-b69d-e9681dc2aa76: 'days left' # days left
+    9051343e-469e-4a78-b1e7-a7f29cec0acb: 'artist Name' # artist Name
     ae661a47-9d65-45e3-abc2-2ddcfb3d2347: small # small
     cffe5443-b288-4ce0-9cb5-c82cab57a5d6: NFT # NFT
-    d36bff2a-9121-4c9c-a093-3c0903c35574: Text # Text
+    d36bff2a-9121-4c9c-a093-3c0903c35574: 'Text title' # Text title
     d96b8a7f-0dc8-4789-a729-28d655ccb159: 'feature image' # feature image
+    e0fe39b6-5d3e-4f26-bc5b-49d131f5f21d: text # text
 plugins:
   redactor:
     edition: standard
     enabled: true
     schemaVersion: 2.3.0
+  redactor-custom-styles:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
 system:
   edition: solo
   live: true

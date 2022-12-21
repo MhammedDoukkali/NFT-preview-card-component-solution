@@ -13,7 +13,43 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: d36bff2a-9121-4c9c-a093-3c0903c35574 # Text
+            fieldUid: d36bff2a-9121-4c9c-a093-3c0903c35574 # Text title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: e0fe39b6-5d3e-4f26-bc5b-49d131f5f21d # text
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 08679d1d-9717-4683-bb7a-659d489d05b3 # price
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 134575d6-3938-42f4-b69d-e9681dc2aa76 # days left
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 9051343e-469e-4a78-b1e7-a7f29cec0acb # artist Name
             instructions: null
             label: null
             required: false
@@ -37,8 +73,8 @@ fieldLayouts:
             class: null
             disabled: false
             id: null
-            instructions: null
-            label: null
+            instructions: ''
+            label: __blank__
             max: null
             min: null
             name: null

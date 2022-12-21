@@ -29,9 +29,10 @@ hr {
 	border-top: 0px solid ;
 	width: 100%;
 }
-.text {
+/*.text {
  color: hsl(215, 51%, 70%);
-}
+ margin: 0;
+}*/
 
 .price { 
 	color: hsl(178, 100%, 50%);
@@ -49,6 +50,8 @@ h2 a{
 
 p{
 	text-align: left;
+	margin: 5px;
+	
 }
 
 span a{
